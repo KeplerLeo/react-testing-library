@@ -5,7 +5,7 @@ import { act } from 'react-dom/test-utils';
 import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 
-test('', () => {
+test('Teste o componente <FavoritePokemons.js />', () => {
   const { history } = renderWithRouter(<App />);
   const favPage = '/favorites';
   const pikachuUrl = '/pokemons/25';
