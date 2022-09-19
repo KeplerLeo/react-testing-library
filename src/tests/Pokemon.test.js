@@ -13,7 +13,7 @@ test('Teste o componente <Pokemon.js />', () => {
 
   expect(pokeName).toBeInTheDocument();
   expect(pokeType).toBeInTheDocument();
-  expect(pokeType).toHaveTextContent('Eletric');
+  expect(pokeType).toHaveTextContent('Electric');
   expect(pokeWeight).toBeInTheDocument();
   expect(pokeImage).toHaveAttribute('src', 'https://cdn2.bulbagarden.net/upload/b/b2/Spr_5b_025_m.png');
   expect(pokeImage).toHaveAttribute('alt', 'Pikachu sprite');
